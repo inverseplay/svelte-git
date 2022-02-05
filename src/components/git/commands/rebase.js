@@ -4,5 +4,17 @@ export let rebase =
     h: `
     git rebase --onto main animals dogs
     
+    `,
+    h1: `
+    # 기본적인 rebase 전략
+    # main[c8]-git[c1]
+    + git switch main
+    + git rebase git
+    + git reset --soft HEAD~
+    + git stash
+
+
+    
+
     `
 }

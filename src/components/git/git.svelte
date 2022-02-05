@@ -7,7 +7,7 @@ import { git } from "./commands/index";
 
 <textarea name="" id="" cols="30" rows="10">
     {git.commit.am}
-    {git.commit.m}
-    {git.commit.h}
-    {git.clone.h}
+</textarea>
+<textarea name="" id="" cols="30" rows="10">
+    {git.rebase.h1}
 </textarea>
