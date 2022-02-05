@@ -4,18 +4,18 @@ export let fruits
 export let reverse
 export let slice
 export let name
+export let fn
 
-let computedFruits = []
-computedFruits = reverse ? [...fruits].reverse() : [...fruits]
+let computedFruits = [...fruits]
+computedFruits = reverse ? computedFruits.reverse() : computedFruits
 computedFruits = slice ? computedFruits.slice(...slice.split(',')) : computedFruits
-
-// 이러한 코드를 함수형으로 재정의 해보자
+computedFruits = fn ? fn(fruits) : computedFruits
 
 </script>
 
 <h2>fruits {name} </h2>
 <ul>
     {#each computedFruits as f }
-    <li>{f}</li>        
+        <li>{f}</li>        
     {/each}
 </ul>
