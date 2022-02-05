@@ -14,5 +14,6 @@ import { git } from "./commands/index";
     {git.cherrypick} 
 </textarea>
 <textarea name="" id="" cols="60" rows="10">
-    {git.cherrypick.h} 
+    git-2 -c1
+
 </textarea>
