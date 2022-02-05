@@ -15,5 +15,6 @@ import { git } from "./commands/index";
 </textarea>
 <textarea name="" id="" cols="60" rows="10">
     git-2 -c1
+    git-2 -c2
 
 </textarea>
