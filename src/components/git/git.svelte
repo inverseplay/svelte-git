@@ -18,3 +18,6 @@ import { git } from "./commands/index";
 <textarea name="" id="" cols="60" rows="10">
     {git.rebase.h} 
 </textarea>
+<textarea name="" id="" cols="60" rows="10">
+    {git.merge.squash} 
+</textarea>
