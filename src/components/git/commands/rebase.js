@@ -1,20 +1,12 @@
 export let rebase = 
 {
-    onto: "git rebase --onto 도착 출발 이동", 
+    onto: "git rebase --onto 부모가지 잔가지 이동할가지", 
+    i: "git rebase -i HEAD~4",
     h: `
-    git rebase --onto main animals dogs
-    
-    `,
-    h1: `
-    # 기본적인 rebase 전략
-    # main[c8]-git[c1]
-    + git switch main
-    + git rebase git
-    + git reset --soft HEAD~
-    + git stash
+    # 잔가지만 똑 잘라서 붙이기
+    git rebase --onto 부모가지 잔가지 붙일장소
 
-
-    
-
+    # 가지 정리하기
+    git rebase -i HEAD~4
     `
 }

@@ -12,4 +12,8 @@ git switch -c b1
 git switch -t origin/new-branch
 
 
+
+git branch -D component-fruit; 
+git branch -m component-fruit-copy component-fruit
+
 `
