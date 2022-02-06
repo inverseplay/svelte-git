@@ -1,3 +1,21 @@
+export let push = 
+{
+    u: ` 
+    # 로컬 => 원격
+    git push -u origin main
+    git push --set-upstream origin fruit
+
+    # 원격 => 로컬 
+    git fetch
+    git switch -t origin/
+
+    # 원격의 브랜치 삭제
+    git push origin_원격명 --delete 브랜치명
+    git push origin_원격명 -d 브랜치명
+    `
+}
+
+
 `# git pull
 md
 rm -rf .git
