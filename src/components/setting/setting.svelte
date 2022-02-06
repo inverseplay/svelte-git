@@ -4,4 +4,5 @@
 
 <textarea name="" id="" cols="60" rows="10">
     {data.content}
+    {Object.keys(data.terminal)}
 </textarea>
