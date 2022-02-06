@@ -1,5 +1,5 @@
 <script>
-import { data } from "./data/index";
+    import { data } from "./data/index";
 </script>
 
 <textarea name="" id="" cols="60" rows="10">
