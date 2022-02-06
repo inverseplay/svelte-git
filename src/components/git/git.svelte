@@ -9,12 +9,12 @@ import { git } from "./commands/index";
     {git.commit.am}
 </textarea>
 <textarea name="" id="" cols="60" rows="10">
-    {git.rebase.h1} 
-    {git.rebase} 
-    {git.cherrypick} 
+    {git.cherrypick.h} 
+    
 </textarea>
 <textarea name="" id="" cols="60" rows="10">
-    git-2 -c1
-    git-2 -c2
-
+  {git.reflog.h}
+</textarea>
+<textarea name="" id="" cols="60" rows="10">
+    {git.rebase.h} 
 </textarea>
